@@ -1,0 +1,18 @@
+$body-bg: #F0F1F3;
+$body-color: rgb(36, 43, 37);
+$primary: #3F5754;
+$secondary: #8FAFB7;
+$success: #3F5754;
+$card-border-radius: 0.5rem;
+$border-radius: 0.5rem;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+.form-group {
+  margin-bottom: 1rem !important;
+}
+
+.clickable:hover {
+  cursor: pointer;
+}
