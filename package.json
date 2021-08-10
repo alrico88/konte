@@ -5,6 +5,9 @@
   "author": {
     "name": "Alberto Rico"
   },
+  "repository": {
+    "url": "https://github.com/alrico88/konte"
+  },
   "license": "MIT",
   "scripts": {
     "dev": "vite",
