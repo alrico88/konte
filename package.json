@@ -8,6 +8,7 @@
   "repository": {
     "url": "https://github.com/alrico88/konte"
   },
+  "private": true,
   "license": "MIT",
   "scripts": {
     "dev": "vite",
