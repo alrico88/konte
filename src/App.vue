@@ -17,7 +17,7 @@
               @count-up="countUp",
               @count-down="countDown",
             )
-      .row
+      .row.pb-3
         .col
           create-counter
 </template>

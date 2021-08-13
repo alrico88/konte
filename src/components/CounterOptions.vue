@@ -1,9 +1,9 @@
 <template lang="pug">
-ul.list-inline.mb-0.mt-2
-  li.list-inline-item
-    button.btn.btn-sm.btn-warning(@click="resetCounter") Reset
-  li.list-inline-item
-    button.btn.btn-sm.btn-danger(@click="deleteCounter") Delete
+.d-md-flex.d-block.justify-content-center
+  div.my-2.my-md-0
+    button.btn.btn-sm.btn-warning.w-100.me-md-2(@click="resetCounter") Reset
+  div
+    button.btn.btn-sm.btn-danger.w-100.ms-md-2(@click="deleteCounter") Delete
 </template>
 
 <script setup>

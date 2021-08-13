@@ -5,7 +5,7 @@ li.list-group-item
       i.display-4.bi-dash-circle
     .col-6.counterChild
       p.lead.font-monospace.mb-1.fw-bold.display-5 {{ props.value }}
-      a.hoverable.text-truncate(
+      a.hoverable.text-truncate.d-block(
         href="#",
         @click.prevent="toggleOptions",
       ) {{ getName(props.name) }}
